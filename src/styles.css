@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+.footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.main-container{
+    margin-top: 0.5%;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.651) !important; 
+}

@@ -1,0 +1,17 @@
+<div class="col-md-4 mb-3" *ngFor = "let serie of series">
+  <div class="card text-center">
+    <div class="card-header d-flex justify-content-between align-items-center bg-dark text-white">
+      {{serie.title}}
+      <button class="btn btn-danger">
+        <i class="far fa-trash-alt"></i>
+      </button>
+    </div>
+    <img [src]='serie.image' alt="">
+    <div class="card-body bg-secondary bg-gradient">
+      <p class="text-white">{{serie.description}}</p>
+      <div class="d-grid gap-2">
+        <button class="btn btn-primary" type="button">Jugar</button>
+      </div>
+    </div>
+  </div>
+</div>
